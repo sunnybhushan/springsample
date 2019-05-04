@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class StudentController 
 {
 	@RequestMapping(value="/")
-	String sayHello(ModelMap m)
+	String sayHello()
 	{
-		m.addAttribute("ab", "Hello Jspider");
+		
 		return "hello";
 	}
 	
