@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style/style.css">
+   
+
+</head>
+
+<body>
+    <div class="sunny" >
+        <h1>Registration form</h1>
+    </div>
+    <div class="container">
+
+        <div class="col-md-5 table-bordered ">
+            <h1 class="h1 sunny">Login</h1>
+            <form action="login" method="GET">
+                <div class="form-group">
+                    <label for="username">username</label>
+                    <input class="form-control" type="text" name="username" placeholder="Username" id="username">
+                </div>
+                <div class="form-group">
+                    <label for="password">password</label>
+                    <input class="form-control" type="password" name="password" id="password" placeholder="Password">
+                </div>
+
+                <div class="form-group">
+                    <button class="btn btn-success">submit</button>
+                </div>
+					</form>
+        </div>
+        
+
+
+
+        <div class="col-md-6 table-bordered ">
+            <h1 class="h1 sunny">Register</h1>
+            <form action="registration" method="GET">
+                <div class="form-group">
+                    <label for="text">Name</label>
+                    <input class="form-control"  type="text" name="name" id="name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="text">Username</label>
+                    <input class="form-control" type="text" name="text" id="text" placeholder="Username">
+                </div>
+                <div class="form-group">
+                    <label for="password">password</label>
+                    <input class="form-control" type="password" name="password" id="password" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <label for="No">Contact No</label>
+                    <input class="form-control" type="number" name="number" id="number" placeholder="Number">
+                </div>
+					</form>
+					
+					
+
+                <div class="form-group">
+                    <!-- Date input -->
+                    <label class="control-label" for="date">Date Of Birth</label>
+                    <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text" />
+                </div>
+
+                <div class="form-group">
+                    <h4 class="h4">Gender</h4>
+                    <input type="radio" name="gender" value="male" checked> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <input type="radio" name="gender" value="other"> Other
+                </div>
+
+                <div class="form-group">
+                    <button class="btn btn-success">submit</button>
+                </div>
+
+
+        </div>
+        </form>
+    </div>
+
+   
+
+
+
+</body>
+
+</html>

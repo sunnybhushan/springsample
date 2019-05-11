@@ -1,0 +1,62 @@
+
+        .h1 {
+            color: red;
+        }
+
+        .container {
+            margin-top: 10px;
+            border-color: aqua;
+
+        }
+
+        .col-md-5 {
+            float: right;
+            border-color: aqua;
+        }
+
+        .col-md-6 {
+            border: 2px solid;
+            border-color: aqua;
+        }
+
+        .li {
+            margin: 10px;
+
+        }
+
+        .col-md-4 {
+            text-align: center;
+            margin-top: 10px;
+            padding-top: 10px;
+
+        }
+
+        .text-center {
+            background: #eee;
+            padding: 10px;
+
+        }
+
+        h1 {
+            text-transform: uppercase;
+            text-shadow: 1px 1px 1px blanchedalmond;
+        }
+
+        .col-md-3 {
+            margin-top: 10px;
+        }
+
+        .col-md-3:hover {
+            transform: skew(30deg);
+            transition: ease-in-out 0.5s all;
+            border: 1px solid #ccc;
+        }
+
+        img {
+            height: 200px;
+            width: 200px;
+        }
+.sunny
+{
+    text-align: center;
+}
